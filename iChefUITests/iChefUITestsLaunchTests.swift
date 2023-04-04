@@ -1,13 +1,13 @@
 //
-//  iChefUITestsLaunchTests.swift
-//  iChefUITests
+//  IChefUITestsLaunchTests.swift
+//  IChefUITests
 //
-//  Created by Dev Wilson Fernandes on 31/03/23.
+//  Created by Dev Wilson Fernandes on 03/04/23.
 //
 
 import XCTest
 
-final class iChefUITestsLaunchTests: XCTestCase {
+final class IChefUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NMainViewController" customModule="IChef" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="EYj-4d-xLD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconMain" translatesAutoresizingMaskIntoConstraints="NO" id="ocI-Zz-V3g">
+                    <rect key="frame" x="53" y="77.000000000000014" width="287" height="215.33333333333337"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ocI-Zz-V3g" secondAttribute="height" multiplier="4:3" id="aeI-je-IUQ"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="CAd-jN-tiU">
+                    <rect key="frame" x="26" y="308.33333333333331" width="341" height="200.33333333333331"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsg-oG-GP0">
+                            <rect key="frame" x="0.0" y="0.0" width="341" height="94"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-food-delivery" translatesAutoresizingMaskIntoConstraints="NO" id="Au9-hn-keH">
+                                    <rect key="frame" x="18" y="18" width="58" height="58"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Au9-hn-keH" secondAttribute="height" multiplier="1:1" id="ej5-5A-Nzh"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="imageTintColor">
+                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ntl-t2-umJ">
+                                    <rect key="frame" x="84" y="18" width="249" height="58"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DELIVERY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwz-xh-txj">
+                                            <rect key="frame" x="0.0" y="0.0" width="249" height="20.333333333333332"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Encontre a loja mais próxima e entregaremos para você!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGt-TL-CcK">
+                                            <rect key="frame" x="0.0" y="20.333333333333368" width="249" height="37.666666666666657"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.031372549019607843" green="0.64313725490196072" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="ntl-t2-umJ" firstAttribute="top" secondItem="nsg-oG-GP0" secondAttribute="top" constant="18" id="4Bf-qP-SA4"/>
+                                <constraint firstAttribute="bottom" secondItem="Au9-hn-keH" secondAttribute="bottom" constant="18" id="QcN-PW-dXH"/>
+                                <constraint firstAttribute="trailing" secondItem="ntl-t2-umJ" secondAttribute="trailing" constant="8" id="TfV-eu-KEp"/>
+                                <constraint firstItem="Au9-hn-keH" firstAttribute="top" secondItem="nsg-oG-GP0" secondAttribute="top" constant="18" id="cmt-Uy-aJv"/>
+                                <constraint firstAttribute="bottom" secondItem="ntl-t2-umJ" secondAttribute="bottom" constant="18" id="hAV-UL-uwA"/>
+                                <constraint firstItem="ntl-t2-umJ" firstAttribute="leading" secondItem="Au9-hn-keH" secondAttribute="trailing" constant="8" id="hO6-SI-bjG"/>
+                                <constraint firstItem="Au9-hn-keH" firstAttribute="leading" secondItem="nsg-oG-GP0" secondAttribute="leading" constant="18" id="j9u-ez-68i"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Raz-uB-v8D">
+                            <rect key="frame" x="0.0" y="106" width="341" height="94.333333333333314"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-food-local" translatesAutoresizingMaskIntoConstraints="NO" id="473-JN-7PT">
+                                    <rect key="frame" x="18" y="18.000000000000004" width="58" height="58.333333333333343"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="473-JN-7PT" secondAttribute="height" multiplier="1:1" id="pG1-TZ-7H6"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="imageTintColor">
+                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Kek-30-QQp">
+                                    <rect key="frame" x="84" y="18.000000000000004" width="249" height="58.333333333333343"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RETIRAR NA LOJA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjj-uH-Cd9">
+                                            <rect key="frame" x="0.0" y="0.0" width="249" height="20.333333333333332"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Escolha a loja mais próxima e deixaremos seu pedido prontinho!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7f-4Y-YP1">
+                                            <rect key="frame" x="0.0" y="20.333333333333371" width="249" height="38"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.96470588235294119" green="0.60784313725490191" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Kek-30-QQp" secondAttribute="trailing" constant="8" id="46h-lu-XbJ"/>
+                                <constraint firstAttribute="bottom" secondItem="Kek-30-QQp" secondAttribute="bottom" constant="18" id="FgM-AM-fXi"/>
+                                <constraint firstAttribute="bottom" secondItem="473-JN-7PT" secondAttribute="bottom" constant="18" id="Hy8-GH-3LU"/>
+                                <constraint firstItem="Kek-30-QQp" firstAttribute="top" secondItem="Raz-uB-v8D" secondAttribute="top" constant="18" id="URn-3a-ioZ"/>
+                                <constraint firstItem="473-JN-7PT" firstAttribute="top" secondItem="Raz-uB-v8D" secondAttribute="top" constant="18" id="idW-hT-DwW"/>
+                                <constraint firstItem="Kek-30-QQp" firstAttribute="leading" secondItem="473-JN-7PT" secondAttribute="trailing" constant="8" id="lT1-CU-EQ1"/>
+                                <constraint firstItem="473-JN-7PT" firstAttribute="leading" secondItem="Raz-uB-v8D" secondAttribute="leading" constant="18" id="zAG-dj-yis"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CAd-jN-tiU" secondAttribute="height" multiplier="361:212" id="efc-yV-Xzk"/>
+                    </constraints>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faça Login ou Cadastre-se" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9v-qI-v1R">
+                    <rect key="frame" x="8" y="811.66666666666663" width="377" height="20.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="TextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="CAd-jN-tiU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="26" id="1cy-UI-aQG"/>
+                <constraint firstItem="CAd-jN-tiU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7xi-Wd-kOS"/>
+                <constraint firstItem="CAd-jN-tiU" firstAttribute="top" secondItem="ocI-Zz-V3g" secondAttribute="bottom" constant="16" id="Asd-3L-iMX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ocI-Zz-V3g" secondAttribute="trailing" constant="53" id="DKY-sT-zK2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="A9v-qI-v1R" secondAttribute="trailing" constant="8" id="FHc-z5-pe3"/>
+                <constraint firstAttribute="bottom" secondItem="A9v-qI-v1R" secondAttribute="bottom" constant="20" id="Sol-Ti-aV7"/>
+                <constraint firstItem="ocI-Zz-V3g" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="18" id="Z4P-ml-Jz5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CAd-jN-tiU" secondAttribute="trailing" constant="26" id="c6b-ai-xer"/>
+                <constraint firstItem="A9v-qI-v1R" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="n2T-nB-jZs"/>
+                <constraint firstItem="ocI-Zz-V3g" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="53" id="qzd-DL-Q3k"/>
+            </constraints>
+            <point key="canvasLocation" x="26.717557251908396" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IconMain" width="1178.6666259765625" height="992"/>
+        <image name="ic-food-delivery" width="170.66667175292969" height="170.66667175292969"/>
+        <image name="ic-food-local" width="170.66667175292969" height="170.66667175292969"/>
+        <namedColor name="TextColor">
+            <color red="0.16470588235294117" green="0.1764705882352941" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

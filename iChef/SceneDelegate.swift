@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  iChef
+//  IChef
 //
-//  Created by Dev Wilson Fernandes on 31/03/23.
+//  Created by Dev Wilson Fernandes on 03/04/23.
 //
 
 import UIKit

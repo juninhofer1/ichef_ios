@@ -7,68 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FF1171C29D7C7A6001473AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1171B29D7C7A6001473AE /* AppDelegate.swift */; };
-		5FF1171E29D7C7A6001473AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1171D29D7C7A6001473AE /* SceneDelegate.swift */; };
-		5FF1172029D7C7A6001473AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1171F29D7C7A6001473AE /* ViewController.swift */; };
-		5FF1172329D7C7A6001473AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF1172129D7C7A6001473AE /* Main.storyboard */; };
-		5FF1172629D7C7A6001473AE /* iChef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1172429D7C7A6001473AE /* iChef.xcdatamodeld */; };
-		5FF1172829D7C7A8001473AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF1172729D7C7A8001473AE /* Assets.xcassets */; };
-		5FF1172B29D7C7A8001473AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF1172929D7C7A8001473AE /* LaunchScreen.storyboard */; };
-		5FF1173629D7C7A8001473AE /* iChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1173529D7C7A8001473AE /* iChefTests.swift */; };
-		5FF1174029D7C7A8001473AE /* iChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1173F29D7C7A8001473AE /* iChefUITests.swift */; };
-		5FF1174229D7C7A8001473AE /* iChefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1174129D7C7A8001473AE /* iChefUITestsLaunchTests.swift */; };
+		5F09878429DB8BE400BC68FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09878329DB8BE400BC68FD /* AppDelegate.swift */; };
+		5F09878629DB8BE400BC68FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09878529DB8BE400BC68FD /* SceneDelegate.swift */; };
+		5F09878829DB8BE400BC68FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09878729DB8BE400BC68FD /* ViewController.swift */; };
+		5F09878B29DB8BE400BC68FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F09878929DB8BE400BC68FD /* Main.storyboard */; };
+		5F09878E29DB8BE400BC68FD /* IChef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F09878C29DB8BE400BC68FD /* IChef.xcdatamodeld */; };
+		5F09879029DB8BE500BC68FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F09878F29DB8BE500BC68FD /* Assets.xcassets */; };
+		5F09879329DB8BE500BC68FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F09879129DB8BE500BC68FD /* LaunchScreen.storyboard */; };
+		5F09879E29DB8BE600BC68FD /* IChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09879D29DB8BE600BC68FD /* IChefTests.swift */; };
+		5F0987A829DB8BE600BC68FD /* IChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0987A729DB8BE600BC68FD /* IChefUITests.swift */; };
+		5F0987AA29DB8BE600BC68FD /* IChefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0987A929DB8BE600BC68FD /* IChefUITestsLaunchTests.swift */; };
+		5F0987BD29DB98C400BC68FD /* NSViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0987BC29DB98C400BC68FD /* NSViewExtensions.swift */; };
+		5F0987C029DBA77000BC68FD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0987BF29DBA77000BC68FD /* MainViewController.swift */; };
+		5F0987C229DBA77800BC68FD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F0987C129DBA77800BC68FD /* MainViewController.xib */; };
+		5F0987C629DBA7A900BC68FD /* NMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F0987C429DBA7A900BC68FD /* NMainViewController.xib */; };
+		5F0987C729DBA7A900BC68FD /* NMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0987C529DBA7A900BC68FD /* NMainViewController.swift */; };
+		5F0987CB29DBA9F900BC68FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0987CA29DBA9F900BC68FD /* HomeViewController.swift */; };
+		5F0987CD29DBAA0000BC68FD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F0987CC29DBAA0000BC68FD /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5FF1173229D7C7A8001473AE /* PBXContainerItemProxy */ = {
+		5F09879A29DB8BE600BC68FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FF1171029D7C7A6001473AE /* Project object */;
+			containerPortal = 5F09877829DB8BE400BC68FD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5FF1171729D7C7A6001473AE;
-			remoteInfo = iChef;
+			remoteGlobalIDString = 5F09877F29DB8BE400BC68FD;
+			remoteInfo = IChef;
 		};
-		5FF1173C29D7C7A8001473AE /* PBXContainerItemProxy */ = {
+		5F0987A429DB8BE600BC68FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FF1171029D7C7A6001473AE /* Project object */;
+			containerPortal = 5F09877829DB8BE400BC68FD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5FF1171729D7C7A6001473AE;
-			remoteInfo = iChef;
+			remoteGlobalIDString = 5F09877F29DB8BE400BC68FD;
+			remoteInfo = IChef;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5FF1171829D7C7A6001473AE /* iChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FF1171B29D7C7A6001473AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5FF1171D29D7C7A6001473AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5FF1171F29D7C7A6001473AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5FF1172229D7C7A6001473AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5FF1172529D7C7A6001473AE /* iChef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iChef.xcdatamodel; sourceTree = "<group>"; };
-		5FF1172729D7C7A8001473AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5FF1172A29D7C7A8001473AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5FF1172C29D7C7A8001473AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FF1173129D7C7A8001473AE /* iChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FF1173529D7C7A8001473AE /* iChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChefTests.swift; sourceTree = "<group>"; };
-		5FF1173B29D7C7A8001473AE /* iChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FF1173F29D7C7A8001473AE /* iChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChefUITests.swift; sourceTree = "<group>"; };
-		5FF1174129D7C7A8001473AE /* iChefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F09878029DB8BE400BC68FD /* IChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F09878329DB8BE400BC68FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F09878529DB8BE400BC68FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F09878729DB8BE400BC68FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F09878A29DB8BE400BC68FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F09878D29DB8BE400BC68FD /* IChef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IChef.xcdatamodel; sourceTree = "<group>"; };
+		5F09878F29DB8BE500BC68FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F09879229DB8BE500BC68FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F09879429DB8BE500BC68FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F09879929DB8BE600BC68FD /* IChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F09879D29DB8BE600BC68FD /* IChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IChefTests.swift; sourceTree = "<group>"; };
+		5F0987A329DB8BE600BC68FD /* IChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0987A729DB8BE600BC68FD /* IChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IChefUITests.swift; sourceTree = "<group>"; };
+		5F0987A929DB8BE600BC68FD /* IChefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IChefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F0987BC29DB98C400BC68FD /* NSViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSViewExtensions.swift; sourceTree = "<group>"; };
+		5F0987BF29DBA77000BC68FD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5F0987C129DBA77800BC68FD /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		5F0987C429DBA7A900BC68FD /* NMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMainViewController.xib; sourceTree = "<group>"; };
+		5F0987C529DBA7A900BC68FD /* NMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMainViewController.swift; sourceTree = "<group>"; };
+		5F0987CA29DBA9F900BC68FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F0987CC29DBAA0000BC68FD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5FF1171529D7C7A6001473AE /* Frameworks */ = {
+		5F09877D29DB8BE400BC68FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF1172E29D7C7A8001473AE /* Frameworks */ = {
+		5F09879629DB8BE600BC68FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF1173829D7C7A8001473AE /* Frameworks */ = {
+		5F0987A029DB8BE600BC68FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,138 +92,185 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5FF1170F29D7C7A6001473AE = {
+		5F09877729DB8BE400BC68FD = {
 			isa = PBXGroup;
 			children = (
-				5FF1171A29D7C7A6001473AE /* iChef */,
-				5FF1173429D7C7A8001473AE /* iChefTests */,
-				5FF1173E29D7C7A8001473AE /* iChefUITests */,
-				5FF1171929D7C7A6001473AE /* Products */,
+				5F09878229DB8BE400BC68FD /* IChef */,
+				5F09879C29DB8BE600BC68FD /* IChefTests */,
+				5F0987A629DB8BE600BC68FD /* IChefUITests */,
+				5F09878129DB8BE400BC68FD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5FF1171929D7C7A6001473AE /* Products */ = {
+		5F09878129DB8BE400BC68FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FF1171829D7C7A6001473AE /* iChef.app */,
-				5FF1173129D7C7A8001473AE /* iChefTests.xctest */,
-				5FF1173B29D7C7A8001473AE /* iChefUITests.xctest */,
+				5F09878029DB8BE400BC68FD /* IChef.app */,
+				5F09879929DB8BE600BC68FD /* IChefTests.xctest */,
+				5F0987A329DB8BE600BC68FD /* IChefUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FF1171A29D7C7A6001473AE /* iChef */ = {
+		5F09878229DB8BE400BC68FD /* IChef */ = {
 			isa = PBXGroup;
 			children = (
-				5FF1171B29D7C7A6001473AE /* AppDelegate.swift */,
-				5FF1171D29D7C7A6001473AE /* SceneDelegate.swift */,
-				5FF1171F29D7C7A6001473AE /* ViewController.swift */,
-				5FF1172129D7C7A6001473AE /* Main.storyboard */,
-				5FF1172729D7C7A8001473AE /* Assets.xcassets */,
-				5FF1172929D7C7A8001473AE /* LaunchScreen.storyboard */,
-				5FF1172C29D7C7A8001473AE /* Info.plist */,
-				5FF1172429D7C7A6001473AE /* iChef.xcdatamodeld */,
+				5F0987BB29DB985B00BC68FD /* util */,
+				5F0987B629DB8CAB00BC68FD /* ui */,
+				5F09878329DB8BE400BC68FD /* AppDelegate.swift */,
+				5F09878529DB8BE400BC68FD /* SceneDelegate.swift */,
+				5F09878729DB8BE400BC68FD /* ViewController.swift */,
+				5F09878929DB8BE400BC68FD /* Main.storyboard */,
+				5F09878F29DB8BE500BC68FD /* Assets.xcassets */,
+				5F09879129DB8BE500BC68FD /* LaunchScreen.storyboard */,
+				5F09879429DB8BE500BC68FD /* Info.plist */,
+				5F09878C29DB8BE400BC68FD /* IChef.xcdatamodeld */,
 			);
-			path = iChef;
+			path = IChef;
 			sourceTree = "<group>";
 		};
-		5FF1173429D7C7A8001473AE /* iChefTests */ = {
+		5F09879C29DB8BE600BC68FD /* IChefTests */ = {
 			isa = PBXGroup;
 			children = (
-				5FF1173529D7C7A8001473AE /* iChefTests.swift */,
+				5F09879D29DB8BE600BC68FD /* IChefTests.swift */,
 			);
-			path = iChefTests;
+			path = IChefTests;
 			sourceTree = "<group>";
 		};
-		5FF1173E29D7C7A8001473AE /* iChefUITests */ = {
+		5F0987A629DB8BE600BC68FD /* IChefUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5FF1173F29D7C7A8001473AE /* iChefUITests.swift */,
-				5FF1174129D7C7A8001473AE /* iChefUITestsLaunchTests.swift */,
+				5F0987A729DB8BE600BC68FD /* IChefUITests.swift */,
+				5F0987A929DB8BE600BC68FD /* IChefUITestsLaunchTests.swift */,
 			);
-			path = iChefUITests;
+			path = IChefUITests;
+			sourceTree = "<group>";
+		};
+		5F0987B629DB8CAB00BC68FD /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				5F0987C929DBA9DA00BC68FD /* home */,
+				5F0987C329DBA79100BC68FD /* maintwo */,
+				5F0987BE29DBA75700BC68FD /* mainone */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		5F0987BB29DB985B00BC68FD /* util */ = {
+			isa = PBXGroup;
+			children = (
+				5F0987BC29DB98C400BC68FD /* NSViewExtensions.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		5F0987BE29DBA75700BC68FD /* mainone */ = {
+			isa = PBXGroup;
+			children = (
+				5F0987C129DBA77800BC68FD /* MainViewController.xib */,
+				5F0987BF29DBA77000BC68FD /* MainViewController.swift */,
+			);
+			path = mainone;
+			sourceTree = "<group>";
+		};
+		5F0987C329DBA79100BC68FD /* maintwo */ = {
+			isa = PBXGroup;
+			children = (
+				5F0987C529DBA7A900BC68FD /* NMainViewController.swift */,
+				5F0987C429DBA7A900BC68FD /* NMainViewController.xib */,
+			);
+			path = maintwo;
+			sourceTree = "<group>";
+		};
+		5F0987C929DBA9DA00BC68FD /* home */ = {
+			isa = PBXGroup;
+			children = (
+				5F0987CA29DBA9F900BC68FD /* HomeViewController.swift */,
+				5F0987CC29DBAA0000BC68FD /* HomeViewController.xib */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FF1171729D7C7A6001473AE /* iChef */ = {
+		5F09877F29DB8BE400BC68FD /* IChef */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FF1174529D7C7A8001473AE /* Build configuration list for PBXNativeTarget "iChef" */;
+			buildConfigurationList = 5F0987AD29DB8BE600BC68FD /* Build configuration list for PBXNativeTarget "IChef" */;
 			buildPhases = (
-				5FF1171429D7C7A6001473AE /* Sources */,
-				5FF1171529D7C7A6001473AE /* Frameworks */,
-				5FF1171629D7C7A6001473AE /* Resources */,
+				5F09877C29DB8BE400BC68FD /* Sources */,
+				5F09877D29DB8BE400BC68FD /* Frameworks */,
+				5F09877E29DB8BE400BC68FD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iChef;
-			productName = iChef;
-			productReference = 5FF1171829D7C7A6001473AE /* iChef.app */;
+			name = IChef;
+			productName = IChef;
+			productReference = 5F09878029DB8BE400BC68FD /* IChef.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5FF1173029D7C7A8001473AE /* iChefTests */ = {
+		5F09879829DB8BE600BC68FD /* IChefTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FF1174829D7C7A8001473AE /* Build configuration list for PBXNativeTarget "iChefTests" */;
+			buildConfigurationList = 5F0987B029DB8BE600BC68FD /* Build configuration list for PBXNativeTarget "IChefTests" */;
 			buildPhases = (
-				5FF1172D29D7C7A8001473AE /* Sources */,
-				5FF1172E29D7C7A8001473AE /* Frameworks */,
-				5FF1172F29D7C7A8001473AE /* Resources */,
+				5F09879529DB8BE600BC68FD /* Sources */,
+				5F09879629DB8BE600BC68FD /* Frameworks */,
+				5F09879729DB8BE600BC68FD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5FF1173329D7C7A8001473AE /* PBXTargetDependency */,
+				5F09879B29DB8BE600BC68FD /* PBXTargetDependency */,
 			);
-			name = iChefTests;
-			productName = iChefTests;
-			productReference = 5FF1173129D7C7A8001473AE /* iChefTests.xctest */;
+			name = IChefTests;
+			productName = IChefTests;
+			productReference = 5F09879929DB8BE600BC68FD /* IChefTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5FF1173A29D7C7A8001473AE /* iChefUITests */ = {
+		5F0987A229DB8BE600BC68FD /* IChefUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FF1174B29D7C7A8001473AE /* Build configuration list for PBXNativeTarget "iChefUITests" */;
+			buildConfigurationList = 5F0987B329DB8BE600BC68FD /* Build configuration list for PBXNativeTarget "IChefUITests" */;
 			buildPhases = (
-				5FF1173729D7C7A8001473AE /* Sources */,
-				5FF1173829D7C7A8001473AE /* Frameworks */,
-				5FF1173929D7C7A8001473AE /* Resources */,
+				5F09879F29DB8BE600BC68FD /* Sources */,
+				5F0987A029DB8BE600BC68FD /* Frameworks */,
+				5F0987A129DB8BE600BC68FD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5FF1173D29D7C7A8001473AE /* PBXTargetDependency */,
+				5F0987A529DB8BE600BC68FD /* PBXTargetDependency */,
 			);
-			name = iChefUITests;
-			productName = iChefUITests;
-			productReference = 5FF1173B29D7C7A8001473AE /* iChefUITests.xctest */;
+			name = IChefUITests;
+			productName = IChefUITests;
+			productReference = 5F0987A329DB8BE600BC68FD /* IChefUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5FF1171029D7C7A6001473AE /* Project object */ = {
+		5F09877829DB8BE400BC68FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					5FF1171729D7C7A6001473AE = {
+					5F09877F29DB8BE400BC68FD = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					5FF1173029D7C7A8001473AE = {
+					5F09879829DB8BE600BC68FD = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 5FF1171729D7C7A6001473AE;
+						TestTargetID = 5F09877F29DB8BE400BC68FD;
 					};
-					5FF1173A29D7C7A8001473AE = {
+					5F0987A229DB8BE600BC68FD = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 5FF1171729D7C7A6001473AE;
+						TestTargetID = 5F09877F29DB8BE400BC68FD;
 					};
 				};
 			};
-			buildConfigurationList = 5FF1171329D7C7A6001473AE /* Build configuration list for PBXProject "iChef" */;
+			buildConfigurationList = 5F09877B29DB8BE400BC68FD /* Build configuration list for PBXProject "IChef" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,37 +278,40 @@
 				en,
 				Base,
 			);
-			mainGroup = 5FF1170F29D7C7A6001473AE;
-			productRefGroup = 5FF1171929D7C7A6001473AE /* Products */;
+			mainGroup = 5F09877729DB8BE400BC68FD;
+			productRefGroup = 5F09878129DB8BE400BC68FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FF1171729D7C7A6001473AE /* iChef */,
-				5FF1173029D7C7A8001473AE /* iChefTests */,
-				5FF1173A29D7C7A8001473AE /* iChefUITests */,
+				5F09877F29DB8BE400BC68FD /* IChef */,
+				5F09879829DB8BE600BC68FD /* IChefTests */,
+				5F0987A229DB8BE600BC68FD /* IChefUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5FF1171629D7C7A6001473AE /* Resources */ = {
+		5F09877E29DB8BE400BC68FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF1172B29D7C7A8001473AE /* LaunchScreen.storyboard in Resources */,
-				5FF1172829D7C7A8001473AE /* Assets.xcassets in Resources */,
-				5FF1172329D7C7A6001473AE /* Main.storyboard in Resources */,
+				5F09879329DB8BE500BC68FD /* LaunchScreen.storyboard in Resources */,
+				5F0987C629DBA7A900BC68FD /* NMainViewController.xib in Resources */,
+				5F09879029DB8BE500BC68FD /* Assets.xcassets in Resources */,
+				5F0987C229DBA77800BC68FD /* MainViewController.xib in Resources */,
+				5F09878B29DB8BE400BC68FD /* Main.storyboard in Resources */,
+				5F0987CD29DBAA0000BC68FD /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF1172F29D7C7A8001473AE /* Resources */ = {
+		5F09879729DB8BE600BC68FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF1173929D7C7A8001473AE /* Resources */ = {
+		5F0987A129DB8BE600BC68FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,62 +321,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5FF1171429D7C7A6001473AE /* Sources */ = {
+		5F09877C29DB8BE400BC68FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF1172029D7C7A6001473AE /* ViewController.swift in Sources */,
-				5FF1172629D7C7A6001473AE /* iChef.xcdatamodeld in Sources */,
-				5FF1171C29D7C7A6001473AE /* AppDelegate.swift in Sources */,
-				5FF1171E29D7C7A6001473AE /* SceneDelegate.swift in Sources */,
+				5F0987C029DBA77000BC68FD /* MainViewController.swift in Sources */,
+				5F09878829DB8BE400BC68FD /* ViewController.swift in Sources */,
+				5F0987BD29DB98C400BC68FD /* NSViewExtensions.swift in Sources */,
+				5F0987CB29DBA9F900BC68FD /* HomeViewController.swift in Sources */,
+				5F09878E29DB8BE400BC68FD /* IChef.xcdatamodeld in Sources */,
+				5F09878429DB8BE400BC68FD /* AppDelegate.swift in Sources */,
+				5F0987C729DBA7A900BC68FD /* NMainViewController.swift in Sources */,
+				5F09878629DB8BE400BC68FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF1172D29D7C7A8001473AE /* Sources */ = {
+		5F09879529DB8BE600BC68FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF1173629D7C7A8001473AE /* iChefTests.swift in Sources */,
+				5F09879E29DB8BE600BC68FD /* IChefTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF1173729D7C7A8001473AE /* Sources */ = {
+		5F09879F29DB8BE600BC68FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF1174229D7C7A8001473AE /* iChefUITestsLaunchTests.swift in Sources */,
-				5FF1174029D7C7A8001473AE /* iChefUITests.swift in Sources */,
+				5F0987AA29DB8BE600BC68FD /* IChefUITestsLaunchTests.swift in Sources */,
+				5F0987A829DB8BE600BC68FD /* IChefUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5FF1173329D7C7A8001473AE /* PBXTargetDependency */ = {
+		5F09879B29DB8BE600BC68FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5FF1171729D7C7A6001473AE /* iChef */;
-			targetProxy = 5FF1173229D7C7A8001473AE /* PBXContainerItemProxy */;
+			target = 5F09877F29DB8BE400BC68FD /* IChef */;
+			targetProxy = 5F09879A29DB8BE600BC68FD /* PBXContainerItemProxy */;
 		};
-		5FF1173D29D7C7A8001473AE /* PBXTargetDependency */ = {
+		5F0987A529DB8BE600BC68FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5FF1171729D7C7A6001473AE /* iChef */;
-			targetProxy = 5FF1173C29D7C7A8001473AE /* PBXContainerItemProxy */;
+			target = 5F09877F29DB8BE400BC68FD /* IChef */;
+			targetProxy = 5F0987A429DB8BE600BC68FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5FF1172129D7C7A6001473AE /* Main.storyboard */ = {
+		5F09878929DB8BE400BC68FD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5FF1172229D7C7A6001473AE /* Base */,
+				5F09878A29DB8BE400BC68FD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5FF1172929D7C7A8001473AE /* LaunchScreen.storyboard */ = {
+		5F09879129DB8BE500BC68FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5FF1172A29D7C7A8001473AE /* Base */,
+				5F09879229DB8BE500BC68FD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +388,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5FF1174329D7C7A8001473AE /* Debug */ = {
+		5F0987AB29DB8BE600BC68FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +448,7 @@
 			};
 			name = Debug;
 		};
-		5FF1174429D7C7A8001473AE /* Release */ = {
+		5F0987AC29DB8BE600BC68FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,16 +502,16 @@
 			};
 			name = Release;
 		};
-		5FF1174629D7C7A8001473AE /* Debug */ = {
+		5F0987AE29DB8BE600BC68FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3QR5932KS7;
+				DEVELOPMENT_TEAM = 7D53LXDPCN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iChef/Info.plist;
+				INFOPLIST_FILE = IChef/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -454,7 +522,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.iChef;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.IChef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,16 +530,16 @@
 			};
 			name = Debug;
 		};
-		5FF1174729D7C7A8001473AE /* Release */ = {
+		5F0987AF29DB8BE600BC68FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3QR5932KS7;
+				DEVELOPMENT_TEAM = 7D53LXDPCN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iChef/Info.plist;
+				INFOPLIST_FILE = IChef/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,7 +550,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.iChef;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.IChef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +558,7 @@
 			};
 			name = Release;
 		};
-		5FF1174929D7C7A8001473AE /* Debug */ = {
+		5F0987B129DB8BE600BC68FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -501,16 +569,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.iChefTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.IChefTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iChef";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IChef";
 			};
 			name = Debug;
 		};
-		5FF1174A29D7C7A8001473AE /* Release */ = {
+		5F0987B229DB8BE600BC68FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,16 +589,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.iChefTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.IChefTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iChef";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IChef";
 			};
 			name = Release;
 		};
-		5FF1174C29D7C7A8001473AE /* Debug */ = {
+		5F0987B429DB8BE600BC68FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,16 +607,16 @@
 				DEVELOPMENT_TEAM = 3QR5932KS7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.iChefUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.IChefUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iChef;
+				TEST_TARGET_NAME = IChef;
 			};
 			name = Debug;
 		};
-		5FF1174D29D7C7A8001473AE /* Release */ = {
+		5F0987B529DB8BE600BC68FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -557,50 +625,50 @@
 				DEVELOPMENT_TEAM = 3QR5932KS7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.iChefUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabajara.IChefUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iChef;
+				TEST_TARGET_NAME = IChef;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FF1171329D7C7A6001473AE /* Build configuration list for PBXProject "iChef" */ = {
+		5F09877B29DB8BE400BC68FD /* Build configuration list for PBXProject "IChef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FF1174329D7C7A8001473AE /* Debug */,
-				5FF1174429D7C7A8001473AE /* Release */,
+				5F0987AB29DB8BE600BC68FD /* Debug */,
+				5F0987AC29DB8BE600BC68FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FF1174529D7C7A8001473AE /* Build configuration list for PBXNativeTarget "iChef" */ = {
+		5F0987AD29DB8BE600BC68FD /* Build configuration list for PBXNativeTarget "IChef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FF1174629D7C7A8001473AE /* Debug */,
-				5FF1174729D7C7A8001473AE /* Release */,
+				5F0987AE29DB8BE600BC68FD /* Debug */,
+				5F0987AF29DB8BE600BC68FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FF1174829D7C7A8001473AE /* Build configuration list for PBXNativeTarget "iChefTests" */ = {
+		5F0987B029DB8BE600BC68FD /* Build configuration list for PBXNativeTarget "IChefTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FF1174929D7C7A8001473AE /* Debug */,
-				5FF1174A29D7C7A8001473AE /* Release */,
+				5F0987B129DB8BE600BC68FD /* Debug */,
+				5F0987B229DB8BE600BC68FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FF1174B29D7C7A8001473AE /* Build configuration list for PBXNativeTarget "iChefUITests" */ = {
+		5F0987B329DB8BE600BC68FD /* Build configuration list for PBXNativeTarget "IChefUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FF1174C29D7C7A8001473AE /* Debug */,
-				5FF1174D29D7C7A8001473AE /* Release */,
+				5F0987B429DB8BE600BC68FD /* Debug */,
+				5F0987B529DB8BE600BC68FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -608,17 +676,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5FF1172429D7C7A6001473AE /* iChef.xcdatamodeld */ = {
+		5F09878C29DB8BE400BC68FD /* IChef.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5FF1172529D7C7A6001473AE /* iChef.xcdatamodel */,
+				5F09878D29DB8BE400BC68FD /* IChef.xcdatamodel */,
 			);
-			currentVersion = 5FF1172529D7C7A6001473AE /* iChef.xcdatamodel */;
-			path = iChef.xcdatamodeld;
+			currentVersion = 5F09878D29DB8BE400BC68FD /* IChef.xcdatamodel */;
+			path = IChef.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 5FF1171029D7C7A6001473AE /* Project object */;
+	rootObject = 5F09877829DB8BE400BC68FD /* Project object */;
 }

@@ -1,14 +1,14 @@
 //
-//  iChefTests.swift
-//  iChefTests
+//  IChefTests.swift
+//  IChefTests
 //
-//  Created by Dev Wilson Fernandes on 31/03/23.
+//  Created by Dev Wilson Fernandes on 03/04/23.
 //
 
 import XCTest
-@testable import iChef
+@testable import IChef
 
-final class iChefTests: XCTestCase {
+final class IChefTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
