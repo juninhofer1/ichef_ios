@@ -24,6 +24,7 @@
 		5F0987C729DBA7A900BC68FD /* NMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0987C529DBA7A900BC68FD /* NMainViewController.swift */; };
 		5F0987CB29DBA9F900BC68FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0987CA29DBA9F900BC68FD /* HomeViewController.swift */; };
 		5F0987CD29DBAA0000BC68FD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F0987CC29DBAA0000BC68FD /* HomeViewController.xib */; };
+		D8EFF9B39C689C51A3DA344E /* Pods_IChef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8120152E813D2CE2405EC8 /* Pods_IChef.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39400094FE6712D3B0B82A0D /* Pods-IChef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IChef.debug.xcconfig"; path = "Target Support Files/Pods-IChef/Pods-IChef.debug.xcconfig"; sourceTree = "<group>"; };
 		5F09878029DB8BE400BC68FD /* IChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F09878329DB8BE400BC68FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F09878529DB8BE400BC68FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,8 @@
 		5F0987C529DBA7A900BC68FD /* NMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMainViewController.swift; sourceTree = "<group>"; };
 		5F0987CA29DBA9F900BC68FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5F0987CC29DBAA0000BC68FD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9C8120152E813D2CE2405EC8 /* Pods_IChef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IChef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8154E91B5FAF74E4B33FBC4 /* Pods-IChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IChef.release.xcconfig"; path = "Target Support Files/Pods-IChef/Pods-IChef.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8EFF9B39C689C51A3DA344E /* Pods_IChef.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,8 @@
 				5F09879C29DB8BE600BC68FD /* IChefTests */,
 				5F0987A629DB8BE600BC68FD /* IChefUITests */,
 				5F09878129DB8BE400BC68FD /* Products */,
+				E6EF0B95DD15E6F6FB056345 /* Pods */,
+				9FB40EB3D8385AC7F0C99850 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +198,24 @@
 			path = home;
 			sourceTree = "<group>";
 		};
+		9FB40EB3D8385AC7F0C99850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C8120152E813D2CE2405EC8 /* Pods_IChef.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6EF0B95DD15E6F6FB056345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39400094FE6712D3B0B82A0D /* Pods-IChef.debug.xcconfig */,
+				B8154E91B5FAF74E4B33FBC4 /* Pods-IChef.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F0987AD29DB8BE600BC68FD /* Build configuration list for PBXNativeTarget "IChef" */;
 			buildPhases = (
+				881A438362816D8910F12358 /* [CP] Check Pods Manifest.lock */,
 				5F09877C29DB8BE400BC68FD /* Sources */,
 				5F09877D29DB8BE400BC68FD /* Frameworks */,
 				5F09877E29DB8BE400BC68FD /* Resources */,
+				118EA3AAF5792276157818B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,6 +346,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		118EA3AAF5792276157818B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IChef/Pods-IChef-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IChef/Pods-IChef-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IChef/Pods-IChef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881A438362816D8910F12358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IChef-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F09877C29DB8BE400BC68FD /* Sources */ = {
@@ -504,6 +573,7 @@
 		};
 		5F0987AE29DB8BE600BC68FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39400094FE6712D3B0B82A0D /* Pods-IChef.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,11 +582,12 @@
 				DEVELOPMENT_TEAM = 7D53LXDPCN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IChef/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IChef;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,6 +603,7 @@
 		};
 		5F0987AF29DB8BE600BC68FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8154E91B5FAF74E4B33FBC4 /* Pods-IChef.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -540,11 +612,12 @@
 				DEVELOPMENT_TEAM = 7D53LXDPCN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IChef/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IChef;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
